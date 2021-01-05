@@ -40,3 +40,6 @@ The main notebook. Collects PurpleAir sensor data, and for each census tract in 
     Function that returns a dataframe that includes the n number of nearest sensors for each census tract in LA county. It uses rtree index's "nearest" function to find the indexed point closest to the bounding box of the census tract geometry. 
 - ### census_tract_values()
     Function that calculates a weighted average using the inverse distance for the n number of nearest sensors' PM2.5 values. Returns the census tract dataframe with the average value included.
+    
+## **Plot LA County PurpleAir Sensors.ipynb**
+Notebook for plotting using geopandas to read the data.geojson file.
